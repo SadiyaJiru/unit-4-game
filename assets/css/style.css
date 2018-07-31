@@ -18,7 +18,7 @@ header {
   margin: 15px 30px;
   width: 50%;
   font-size: 40px;
-  color: #4d0099;
+  color: #c6538c;
   text-align: center;
 }
 .intro {
@@ -27,23 +27,25 @@ header {
   font-family: 'Indie Flower';
   background-color: #f2f2f2;
   margin: 15px 30px; /*top/bottom and left/right*/
-  color: #4d0099;
+  color: #c6538c;
   width: 50%;
 }
 #startButton{
-    color: #4d0099;
+    color: #c6538c;
     background-color: #00e673;
     text-align: center;
     margin: 15px 30px; 
     width: 10%;
     border-style: double;
     border-width: 5px;
+    font-size: 30px;
 }
 
 .wins, .loss{
     margin-left: 5%;
     background: #c6538c;
     color: white;
+    font-size: 30px;
 
 }
 .randomNumber {
@@ -51,7 +53,7 @@ header {
   background:#c6538c;
   color: white;
   float: left;
-  font: larger;
+  font-size: 50px;
 }
 .userScoreTitle {
     background:#c6538c;
@@ -65,6 +67,7 @@ header {
   width: 150px;
   height: 70px;
   color: white;
+  font-size: 50px;
 }
 .myRow{
     width: 50%;
