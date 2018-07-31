@@ -1,0 +1,82 @@
+/*Include padding and border in the element's total width and height:*/
+* {
+  box-sizing: border-box;
+}
+/*---------------------------------------*/
+body {
+  background-image: url(../images/crystals.jpg);
+}
+img {
+  width: 100px;
+}
+
+header {
+  background-color: #f2f2f2;
+  border-style: double;
+  border-width: 5px;
+  font-family: 'Indie Flower';
+  margin: 15px 30px;
+  width: 50%;
+  font-size: 40px;
+  color: #4d0099;
+  text-align: center;
+}
+.intro {
+  border-style: double;
+  border-width: 5px;
+  font-family: 'Indie Flower';
+  background-color: #f2f2f2;
+  margin: 15px 30px; /*top/bottom and left/right*/
+  color: #4d0099;
+  width: 50%;
+}
+#startButton{
+    color: #4d0099;
+    background-color: #00e673;
+    text-align: center;
+    margin: 15px 30px; 
+    width: 10%;
+    border-style: double;
+    border-width: 5px;
+}
+
+.wins, .loss{
+    margin-left: 5%;
+    background: #c6538c;
+    color: white;
+
+}
+.randomNumber {
+  height: 70px;
+  background:#c6538c;
+  color: white;
+  float: left;
+  font: larger;
+}
+.userScoreTitle {
+    background:#c6538c;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    
+  }
+.userScore {
+  background:#c6538c;
+  width: 150px;
+  height: 70px;
+  color: white;
+}
+.myRow{
+    width: 50%;
+    margin: 20px
+}
+.container{
+    margin-left: 0px; /*top/bottom and left/right*/
+}
+img{
+    width: 90px;
+    height: 90px
+}
+
+
+

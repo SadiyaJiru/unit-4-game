@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>crystals Guess </title>
+
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kirang+Haerang" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <!--JS LINKS FROM BS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>crystals Collector</h1>
+    </header>
+
+    <div class="intro">
+        <ol>
+        <li>Four crystalss are displayed as buttons</li> 
+        <li>The player will be shown a random number after clicking start</li>
+        <li>When the player clicks on a crystals, it will add a specific amount of points to the player's total</li>
+        <li>The player wins if their total score matches the random number </li>
+        <li>The player loses if their score goes above the random number</li>
+        <li>The game restarts whenever the player wins or loses</li>
+        <li>When the game begins again, the player should see a new random number</li>
+        <li>All the crystalss will have four new hidden values.</li>
+        <li>The game will keep track of the wins and loses </li>
+        </ol>
+    </div>
+
+    <div id = "startButton">
+        START
+    </div>
+
+    <div class="container">
+
+        <div class="row myRow">
+            <div class="col randomNumber">
+                    Random Number
+            </div>
+            <div class="col wins">
+                Wins:
+            </div>
+            <div class="col loss">
+                    Losses:
+                </div>
+        </div>
+
+        <div class="row myRow">
+            <div class="col greenCrystal">
+                <img src="assets/images/green.png">
+            </div>
+            <div class="col pinkCrystal">
+                <img src="assets/images/pink.png">
+            </div>
+
+            <div class="col yellowCrystal">
+                <img src="assets/images/yellow.png">
+            </div>
+            <div class="col blueCrystal">
+                <img src="assets/images/blue.png">
+            </div>
+        </div>
+
+        <div class="row myRow">
+            <!--area for users total score title-->
+            <div class="userScoreTitle">
+                TOTAL SCORE:
+            </div>
+        </div>
+        <div class="row myRow">
+            <!--area for users total score-->
+            <div class="userScore">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
