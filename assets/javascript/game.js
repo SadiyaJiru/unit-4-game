@@ -23,7 +23,7 @@ var userTotal= 0;
 var wins = 0;
 var losses = 0;
 
-//Logs 0 at the start of every game
+//Logs 0 at the start of every game for users total score
 $(".userScore").text(userTotal);
 
 //logs the current number of wins and losses
@@ -44,7 +44,7 @@ function reset() {
   $(".userScore").text(userTotal);
 }
 
-//adds the wins to the userTotal
+//Win Function, adds the wins to the userTotal
 function win() {
   alert("You won!");
   wins++;
