@@ -5,6 +5,7 @@
 /*---------------------------------------*/
 body {
   background-image: url(../images/crystals.jpg);
+  background-repeat: no-repeat;
 }
 img {
   width: 100px;
@@ -12,74 +13,92 @@ img {
 
 header {
   background-color: #f2f2f2;
-  border-style: double;
-  border-width: 5px;
-  font-family: 'Indie Flower';
-  margin: 15px 30px;
+  font-family: "Nanum Gothic", sans-serif;
+  margin: 20px 30px;
   width: 50%;
   font-size: 40px;
   color: #c6538c;
   text-align: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px  #cccccc;
 }
 .intro {
-  border-style: double;
-  border-width: 5px;
-  font-family: 'Indie Flower';
+  font-size: 20px;
+  font-family: "Nanum Gothic", sans-serif;
   background-color: #f2f2f2;
-  margin: 15px 30px; /*top/bottom and left/right*/
+  margin: 20px 30px; /*top/bottom and left/right*/
   color: #c6538c;
   width: 50%;
+
+  border-radius: 15px;
+  box-shadow: 10px 10px  #cccccc;
 }
-#startButton{
-    color: #c6538c;
-    background-color: #00e673;
-    text-align: center;
-    margin: 15px 30px; 
-    width: 10%;
-    border-style: double;
-    border-width: 5px;
-    font-size: 30px;
+#startButton {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #c6538c;
+  background-color: #00e673;
+  text-align: center;
+  margin: 15px 30px;
+  width: 10%;
+  font-size: 30px;
+
+  border-radius: 15px;
+  box-shadow: 0 10px #cccccc;
 }
 
-.wins, .loss{
-    margin-left: 5%;
-    background: #c6538c;
-    color: white;
-    font-size: 30px;
-
+.wins,
+.loss {
+  font-family: "Nanum Gothic", sans-serif;
+  margin-left: 5%;
+  background: #c6538c;
+  color: white;
+  font-size: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px #cccccc;
 }
 .randomNumber {
+  font-family: "Nanum Gothic", sans-serif;
   height: 70px;
-  background:#c6538c;
+  background: #c6538c;
   color: white;
   float: left;
   font-size: 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px #cccccc;
 }
 .userScoreTitle {
-    background:#c6538c;
-    width: 150px;
-    color: white;
-    font-weight: bold;
-    
-  }
+  font-family: "Nanum Gothic", sans-serif;
+  background: #c6538c;
+  width: 150px;
+  color: white;
+  font-weight: bold;
+
+  border-radius: 15px;
+  box-shadow: 0 10px #cccccc;
+}
 .userScore {
-  background:#c6538c;
+  font-family: "Nanum Gothic", sans-serif;
+  background: #c6538c;
   width: 150px;
   height: 70px;
   color: white;
   font-size: 50px;
-}
-.myRow{
-    width: 50%;
-    margin: 20px
-}
-.container{
-    margin-left: 0px; /*top/bottom and left/right*/
-}
-img{
-    width: 90px;
-    height: 90px
-}
 
-
-
+  border-radius: 15px;
+  box-shadow: 0 10px #cccccc;
+}
+.myRow {
+  width: 50%;
+  margin: 20px;
+}
+.container {
+  margin-left: 0px; /*top/bottom and left/right*/
+}
+img {
+  width: 90px;
+  height: 90px;
+  color: gray;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #cccccc;
+}
