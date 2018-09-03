@@ -12,3 +12,5 @@ How to Play: Crystal Collector Game
 7. When the game begins again, the player should see a new random number
 8. All the crystalss will have four new hidden values.
 9. The game will keep track of the wins and loses
+
+https://sadiyajiru.github.io/unit-4-game/"
